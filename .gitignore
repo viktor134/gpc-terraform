@@ -1,0 +1,15 @@
+# Terraform
+.terraform
+terraform.tfstate
+terraform.tfstate.backup
+
+# Local configuration files
+*.auto.tfvars
+terraform.tfvars.local
+
+# Sensitive data
+cred/mygcp-cred.json 
+
+# Temporary files
+*.tfplan 
+
